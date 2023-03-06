@@ -1,0 +1,31 @@
+https://www.coursera.org/learn/html-and-css-in-depth/lecture/DDpCH/using-interactive-form-elements
+putting Date, Range input, dropdown list
+
+<main>
+    <h1>Book a Table</h1>
+    <form method="POST">
+        <div> 
+            <!-- date input -->
+            <label for="booking_date">Booking Date</label>
+            <input type="date" id="booking_date" name="booking_date">
+        </div>
+        <div>
+            <!-- Range input output -->
+            <label for="booking_people">Number of People</label>
+            <input type="range" id="booking_people" name="boking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value"> <!-- setting default input value to 4 -->
+            <output>4</output> <!-- to match the input above and allow the user to edit it with the javascript above -->
+        </div>
+        <div>
+            <!-- Making list -->
+            <label for=>Location</label>
+            <input id="booking_location" name="booking_location" list="locations"> <!-- list is added -->
+            <datalist id="locations"> <!-- added the id above -->
+                <option value="Downtown"></option> <!-- list on dropdown -->
+                <option value="Uptown"></option> <!-- list on dropdown -->
+            </datalist>
+        </div>
+        <button type="submit">
+            Book table
+        </button>
+    </form>
+</main>
