@@ -1,0 +1,31 @@
+/* for nav-menu-flexbox.html project */
+
+
+* { /* universal selector that will be apply on every element on css code */
+    margin: 0; /* use to clear browser formating */
+    padding: 0;
+}
+
+.container { 
+    background-color: #2b2d42;
+    display: flex;
+    flex-flow: row wrap; /* direction and behavior for wrapping */
+    justify-content: stretch; /* align to main axis */
+}
+
+.container li {
+    list-style-type: none;
+}
+
+.container a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.container a:hover {
+    background-color: lightsteelblue;
+}

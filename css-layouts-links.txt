@@ -1,0 +1,2 @@
+css web layout                  https://www.coursera.org/learn/html-and-css-in-depth/lecture/qsWww/css-web-layout
+understanding flexbox           https://www.coursera.org/learn/html-and-css-in-depth/supplement/srX6c/understanding-flexbox

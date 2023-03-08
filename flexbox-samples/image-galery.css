@@ -1,0 +1,23 @@
+/* for image-galery.html */
+
+
+* { /* remove browser default setting  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img { /* reset the border  */
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* will determine if flex itemx should be force in one line should wrap in multiple lines */
+    justify-content: space-between; /* aligns the the flex container on the horizontal axis */
+    padding: 5px;
+}
+
+.item {
+    margin: 5px;
+}

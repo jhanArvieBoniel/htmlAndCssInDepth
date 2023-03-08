@@ -1,0 +1,27 @@
+/* for searchbox-flexbox.html */
+/* https://www.coursera.org/learn/html-and-css-in-depth/lecture/2Ur82/basic-flexbox */
+
+.container {
+    display: inline-flex; /* container behave like an inline element */
+    flex: 1 1300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;  /* text that will be type to not overflow on the search bar */
+}
+
+.icon {
+    padding: 0.8rem;
+}
+
+.searchBox {
+    border: 0;
+    flex: 1;
+}
+
+.searchButton {
+    color: white;
+    background: #0f4a8a;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
