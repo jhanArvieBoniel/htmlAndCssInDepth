@@ -1,3 +1,5 @@
+/* for flex-charts.html */
+
 .row {
     display: flex;
     align-items: stretch;
@@ -17,5 +19,16 @@
 .row .dish {
     display: flex;
     justify-content: center;
-    align-items: cen;
+    align-items: center;
+}
+
+
+.pasta {
+    background-color: darkorange;
+}
+.pizza {
+    background-color: red;
+}
+.burrito {
+    background-color: chartreuse;
 }
