@@ -1,0 +1,71 @@
+/* https://www.coursera.org/learn/html-and-css-in-depth/lecture/mafHz/widely-used-selectors */
+
+
+p { /* element or type selector */
+  color: blue;
+}
+
+#id { /* id selector <p id="id">sample</p> */
+  color: red;
+}
+
+.class { /* <p class="class class2"></p> */
+  color: lightblue;
+}
+
+
+
+
+/* Attribute Selectors */
+/* <a href="http://sample.com">Hei</a>
+<a href="http://sample.com" class="about">Hei about</a>
+<a href="http://sample.com/hello" class="home">Hei home</a> */
+
+a[class] { /* element[attribute] */
+  color: lightcoral;
+}
+a[href*="sample"] { /* element[href*=keyword value] */
+  color: lightcyan;
+}
+a[href="http://sample.com/hello"]{ /* element[href="specific link"] */
+  color: lightpink;
+}
+
+
+
+
+/* :nth-of-type() and :nth-child() selectors */
+/* element:nth-child(n){
+  property: value;
+} */
+/* element:nth-of-type(n){
+  property: value;
+} */
+/* <ul>
+  <li>one</li>
+  <li>two</li>
+</ul> */
+li:nth-of-type(2){ /* child of the elemnt / <li>two</li> */
+  color: aqua;
+}
+li:nth-child(2){ /* child of the elemnt / <li>two</li> */
+  color: aqua;
+}
+
+
+
+
+/* Star selector (*) */
+/* reseting the default style of browser / selects all */
+* {
+  color: yellow;
+}
+
+
+
+
+/* Group selectors / selecting more element */
+h1, h2, h3, strong {
+  color: yellowgreen;
+  text-align: center;
+}
