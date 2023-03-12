@@ -1,0 +1,39 @@
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* div got devided into 12 columns with 1fr values each */
+}
+
+/* all 6 divition */
+.segment {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  grid-template-rows: 100px; /* row height is 100px */
+}
+
+/* a single div */
+.twelve {
+  background-color: lightseagreen;
+  grid-column: 1/ span 12; /* cover the span from 1st gid column to 12th */
+}
+
+.eight {
+  background-color: red;
+  grid-column: 5/ span 8; /* 5th column to 8th */
+}
+
+.four {
+  background-color: orange;
+  grid-column: 1/ span 4; /* 4 and 6 on a same row to fill the 12 column */
+}
+
+.six {
+  grid-column: 5/ span 6; /* 4 and 6 on a same row to fill the 12 column */
+  background-color: lightgreen;
+}
+
+.seven {
+  grid-column: 3/ span 7; /* 3rd span to 7th */
+  background-color: lightcoral;
+}
