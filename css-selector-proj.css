@@ -1,0 +1,64 @@
+/* Properties for other selectors */
+*{
+    font-family: Monaco;
+}
+
+.menu, .ll{ /* both class */
+    text-align: center;
+    color:#FA9F42;
+}
+
+.ll{ /*Little Lemon*/
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #495E57; /* line below */
+}
+
+.menu-container {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    background-color:#E0E0E2;
+    
+}
+
+
+/* Add rules for the steps mentioned below */
+.section {
+    padding: 10px;
+}
+
+.label { /* dish names */
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    border-top: 2px solid #495E57;
+}
+
+.item-name {
+    margin: 25px;
+    font-size: 12px;
+}
+
+b {
+    float: right;
+    margin-top: -15px; /* Inside b */
+    color: darkcyan; /* Inside b */
+}
+
+div > h3 {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #495E57;
+}
+
+.label + .low {
+  color: brown; 
+}
+
+div ~ div {
+  color: rgb(90, 90, 90);
+}
