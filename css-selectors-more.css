@@ -1,7 +1,13 @@
-/* https://www.coursera.org/learn/html-and-css-in-depth/lecture/mafHz/widely-used-selectors */
-/*https://www.coursera.org/learn/html-and-css-in-depth/supplement/FXaAP/all-selectors-and-their-specificity*/
-/*https://www.coursera.org/learn/html-and-css-in-depth/lecture/xVmgq/combination-selectors*/
-/* https://www.coursera.org/learn/html-and-css-in-depth/lecture/CMwle/pseudo-classes */
+/* widely-used-selectors                       https://www.coursera.org/learn/html-and-css-in-depth/lecture/mafHz/widely-used-selectors */
+/* all-selectors-and-their-specificity         https://www.coursera.org/learn/html-and-css-in-depth/supplement/FXaAP/all-selectors-and-their-specificity*/
+/*combination-selectors                       https://www.coursera.org/learn/html-and-css-in-depth/lecture/xVmgq/combination-selectors*/
+/* pseudo-classes                             https://www.coursera.org/learn/html-and-css-in-depth/lecture/CMwle/pseudo-classes */
+/* practical-use-of-pseudo                    https://www.coursera.org/learn/html-and-css-in-depth/supplement/nIdjK/pseudo-elements */
+/* practical-use-of-pseudo                    https://www.coursera.org/learn/html-and-css-in-depth/lecture/fovk0/practical-use-of-pseudo */
+/* css-pseudo-cheat-sheet                     https://www.coursera.org/learn/html-and-css-in-depth/supplement/zbsTK/css-pseudo-cheat-sheet */
+/* additional-resources                       https://www.coursera.org/learn/html-and-css-in-depth/supplement/usXYk/additional-resources */
+
+
 
 
 p { /* element or type selector */
@@ -120,6 +126,29 @@ div + p { /* selects the 1st element that matches the asked element (p) */
   property: value;
 } */
 
-/*  :hover - change the style of an element when curser is over it.  */
-/*  :active - style the element while user actively pressing button    */
-/*  :focus - focus the style of the element that u use it for */
+/*       LVHA
+ :link - pseudo class for links
+ :visited - style links that are visited by user
+ :hover - change the style of an element when curser is over it. 
+ :active - style the element while user actively pressing button   
+ :focus - focus the style of the element that u use it for
+ */
+
+
+
+
+/*  Form States - use for from styling  */
+/*  :disaled and :enabled - generally use for buttons  */
+/*  :checked and :indeterminate - use for checkboxes  */
+/*  :valid and :invalid - use for emails and phone numbers  */
+
+
+
+
+/*  Specific position based states -  allow to target specific items*/
+/* 
+:first-of-type -ex use for list element to style only the first li element in a multiple li element.
+:last-of-type - oposite of first-of-type
+:nth-of-type() -
+:nth-last-of-type()
+ */
