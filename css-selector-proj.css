@@ -47,17 +47,17 @@ b {
     color: darkcyan; /* Inside b */
 }
 
-div > h3 {
+div > h3 { /* child selector */
     font-size: 20px;
     margin: 20px;
     text-align: center;
     color: #495E57;
 }
 
-.label + .low {
+.label + .low {  /* adjacent Sibling Selector */
   color: brown; 
 }
 
-div ~ div {
+div ~ div { /* general sibling selector */
   color: rgb(90, 90, 90);
 }

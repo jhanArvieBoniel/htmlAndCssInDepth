@@ -1,6 +1,7 @@
 /* https://www.coursera.org/learn/html-and-css-in-depth/lecture/mafHz/widely-used-selectors */
 /*https://www.coursera.org/learn/html-and-css-in-depth/supplement/FXaAP/all-selectors-and-their-specificity*/
 /*https://www.coursera.org/learn/html-and-css-in-depth/lecture/xVmgq/combination-selectors*/
+/* https://www.coursera.org/learn/html-and-css-in-depth/lecture/CMwle/pseudo-classes */
 
 
 p { /* element or type selector */
@@ -108,3 +109,17 @@ h1 ~ p { /* element 1 ~ sibling of elemnt 1 */
 div + p { /* selects the 1st element that matches the asked element (p) */
   color: darkgoldenrod;
 }
+
+
+
+
+
+
+/* Pseudo-classes - state-based selectors ex. in focus, visited links, specific elements*/
+/* selector:pseudo-class {
+  property: value;
+} */
+
+/*  :hover - change the style of an element when curser is over it.  */
+/*  :active - style the element while user actively pressing button    */
+/*  :focus - focus the style of the element that u use it for */

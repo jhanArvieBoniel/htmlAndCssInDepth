@@ -1,0 +1,23 @@
+.mypage {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a[href]{
+    color: brown;
+}
+
+.mybutton {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+a:hover { /* hover pseudo-class that will change the style of element when cursor is hover */
+    background-color: brown;
+    color: white;
+}
+
+.mybutton:active { /* active pseudo-class that change the element style when user actively engaging with button */
+    background-color: cornflowerblue;
+    transform: scale(0.99);
+}
+
