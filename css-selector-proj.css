@@ -15,11 +15,10 @@
 }
 
 .menu-container {
-    max-width: 90%;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     background-color:#E0E0E2;
-    
 }
 
 
